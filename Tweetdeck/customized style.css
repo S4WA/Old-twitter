@@ -37,7 +37,7 @@ a, a:active, a:focus, a:hover, a.js-other-replies-link.other-replies-link, .comp
     color: rgb(251, 111, 200);
 }
 
-a.is-selected.compose-account:focus .compose-account-img, .compose-account:focus .compose-account-img {
+a.is-selected.compose-account:focus .compose-account-img, .compose-account:focus .compose-account-img, .js-column.column.will-animate.is-focused {
     box-shadow:0 0 2px 3px rgb(251, 111, 200);
     outline: 0;
 }
