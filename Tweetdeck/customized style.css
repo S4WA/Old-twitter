@@ -4,12 +4,15 @@ header.js-mdl-header.mdl-header.js-drag-handle.is-movable {
 
 body, body:before, .js-docked-compose.compose.txt-size--14 {
     background: linear-gradient(-45deg, rgba(125, 175, 247, .6), rgba(251, 111, 200, .6)), url(https://i.imgur.com/07yTG73.jpg);
-    background-position: 90%;
     background-size: cover;
 }
 
+.js-docked-compose.compose.txt-size--14 {
+    background-position: 60%;
+}
+
 button.js-hide-drawer {
-    background: linear-gradient(90deg, rgb(251, 111, 200), rgb(204, 96, 170));
+    background: linear-gradient(90deg, rgb(251, 111, 200), rgb(185, 93, 154));
 }
 
 .pin-bottom-full-width.old-composer-footer {
