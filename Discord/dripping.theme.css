@@ -1,0 +1,15 @@
+//META{"name": "Dripping", "description": "@AkibaKaede", "author": "Drip", "version": "1337"}*//
+
+.da-container .da-flexChild header {
+	background: url(https://i.imgur.com/Bi9QEG4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover 0;
+	background-position: 68% 5%;
+}
+
+.da-container .da-scrollerFade {
+	background: linear-gradient(-45deg, rgba(52, 57, 63, .65), rgba(52, 57, 63, .65)), url("https://i.imgur.com/Bi9QEG4.jpg");
+	background-size: cover 90%;
+	background-repeat: no-repeat;
+	background-position: 68%;
+}
