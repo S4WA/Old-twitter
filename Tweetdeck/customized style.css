@@ -3,20 +3,21 @@ header.js-mdl-header.mdl-header.js-drag-handle.is-movable {
 }
 
 body, body:before, .js-docked-compose.compose.txt-size--14 {
-    background: linear-gradient(-45deg, rgba(125, 175, 247, .8), rgba(251, 111, 200, .8)), url(https://i.imgur.com/07yTG73.jpg);
+    background: linear-gradient(-45deg, rgba(125, 175, 247, .6), rgba(251, 111, 200, .6)), url(https://i.imgur.com/07yTG73.jpg);
+    background-position: 90%;
     background-size: cover;
 }
 
-button.js-hide-drawer.margin-t--4.margin-b--8.Button.Button--primary.Button--large.tweet-button.txt-left, .js-hide-drawer.margin-t--8.margin-b--10.Button.Button--primary.Button--large.tweet-button.txt-left {
-    background: linear-gradient(90deg, rgb(251, 111, 200), rgb(204, 96, 170))
-}
-
-.js-inline-reply.inline-reply, .attach-compose-buttons .tweet-button, .inline-reply, .compose {
-    background-color: rgb(204, 96, 170);
+button.js-hide-drawer {
+    background: linear-gradient(90deg, rgb(251, 111, 200), rgb(204, 96, 170));
 }
 
 .pin-bottom-full-width.old-composer-footer {
     background-color: transparent;
+}
+
+.js-inline-reply.inline-reply, .attach-compose-buttons .tweet-button, .inline-reply, .compose {
+    background-color: rgb(204, 96, 170);
 }
 
 span.reply-triangle {
@@ -109,8 +110,4 @@ p.social-proof-names.pull-right {
 
 img.spinner-centered, a.pull-left.margin-r--6.is-actionable.account-selector-grid-mode:nth-child(1), h1.js-logo.app-title.height--53, .color-twitter-blue.is-hidden.visible-in-contracted-header.height--53.full-width.flex.flex-align--center.flex-justify-content--center {
     display: none;
-}
-
-button.js-hide-drawer.margin-t--8.margin-b--10.Button.Button--primary.Button--large.tweet-button.txt-left {
-    width: 102%;
 }
