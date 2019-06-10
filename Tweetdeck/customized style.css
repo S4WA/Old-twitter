@@ -15,6 +15,10 @@ button.js-hide-drawer.margin-t--4.margin-b--8.Button.Button--primary.Button--lar
     background-color: rgb(204, 96, 170);
 }
 
+.pin-bottom-full-width.old-composer-footer {
+    background-color: transparent;
+}
+
 span.reply-triangle {
     border-color: transparent transparent #CC60AA;
 }
